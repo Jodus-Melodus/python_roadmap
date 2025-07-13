@@ -1,0 +1,44 @@
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    font-size: 40px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.main-body {
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+footer {
+    border-radius: 5px;
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    padding: 20px;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
