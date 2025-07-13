@@ -9,12 +9,33 @@
     background-color: rgb(44, 44, 44);
     border-radius: 5px;
     padding: 30px;
+    margin: 10px;
 }
 
 .main-body {
+    display: flex;
     background-color: rgb(54, 54, 54);
     border-radius: 5px;
-    padding: 20px;
+    margin: 10px;
+}
+
+.navigation {
+    flex: 1;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navigation-item {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.text {
+    flex: 4;
+    border-radius: 5px;
+    padding: 10px;
     margin: 10px;
 }
 
@@ -27,11 +48,12 @@
     flex: 1;
 }
 
+
 footer {
     border-radius: 5px;
     background-color: rgb(48, 48, 48);
-    width: 100%;
     padding: 20px;
+    margin: 10px;
 }
 
 html {
@@ -41,4 +63,14 @@ html {
 body {
     color: white;
     background-color: rgb(37, 37, 37);
+    padding: 10px;
+
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 95, 110);
 }
